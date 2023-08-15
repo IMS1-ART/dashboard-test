@@ -23,7 +23,7 @@ const App = () => {
     <NextUIProvider>
       <div>
         <Header activePage={"Dashboard"} />
-        <main classNameg ={`bg-[#fff] text-[black] mb-0 m-0 md:w-[80] flex-1`}>
+        <main classNameg ={`bg-[#fff] text-[black] mb-0 m-0 md:w-[80%] w-[90%] flex-1`}>
           <h5 className="ml-3">Table View</h5>
           <div className="m-2">
             <Table>
