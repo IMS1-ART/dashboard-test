@@ -7,7 +7,7 @@ const page = ({ f_name, activePage }) => {
   const [ToggleMenu, setToggleMenu] = useState(false);
   // const [activePage, setActivePage] = useState("Dashboard");
   return (
-    <main className="bg-[#fff] flex-1">
+    <main className="bg-[#fff] w-full flex-1">
       <header className="header flex flex-row w-full columns-1 bg-black justify-start mb-2 h-[80px]">
         <Link className="items-center justify-center flex" href={"/"}>
         </Link>
