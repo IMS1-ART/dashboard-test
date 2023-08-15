@@ -24,7 +24,7 @@ const App = () => {
       <div>
         <Header activePage={"Dashboard"} />
         <main classNameg ={`bg-[#fff] text-[black] mb-0 m-0 md:w-[80%] w-[90%] flex-1`}>
-          <h5 className="ml-3">Table View</h5>
+          <p className="ml-3">Table View</p>
           <div className="m-2">
             <Table>
               <Table.Header>
@@ -66,7 +66,7 @@ const App = () => {
               </Table.Body>
             </Table>
           </div>
-          <h5 className="ml-3 m-2">Map View</h5>
+          <p className="ml-3 m-2">Map View</p>
           <div className="w-full h-[300px] m-2">
             <GoogleMapReact
               bootstrapURLKeys={{ key: "" }}
