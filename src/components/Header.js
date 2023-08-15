@@ -9,8 +9,8 @@ const page = ({ f_name, activePage }) => {
   return (
     <main className="bg-[#fff] flex-1">
       <header className="header flex flex-row w-full columns-1 bg-black justify-start mb-2 h-[80px]">
-        <Link className="items-center justify-center flex" href={"/home"}>
-          <Image
+        <Link className="items-center justify-center flex" href={"/"}>
+    {/* <Image
             onClick={() => {
               window.location.href = "/home";
             }}
@@ -19,7 +19,7 @@ const page = ({ f_name, activePage }) => {
             width={90}
             className="resize m-2 ml-4"
             height={15}
-          />
+          /> */}
         </Link>
         <div
           onClick={() => setToggleMenu(true)}
