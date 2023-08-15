@@ -22,9 +22,12 @@ const App = () => {
   const submit = (e) => {
     e.preventDefault();
     setloading(true);
-    if (name === undefined || !phone || email === "" || address === "") {
+    if (name === undefined || !phone || !email || !address) {
       toast.error("Please enter required fields");
     } 
+    if (phone.length != 11) {
+      toast.error("Phone Number must be 11 digits")
+    }
     setloading(false);
   };
   return (
