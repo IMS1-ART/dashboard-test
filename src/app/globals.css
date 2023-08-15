@@ -38,7 +38,7 @@
   src: url("/Ubuntu-Regular.ttf");
 }
 body {
-  width: 85%;
+  width: 100%;
 }
 * {
   font-family: Poppins;
