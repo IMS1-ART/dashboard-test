@@ -35,7 +35,7 @@
 } */
 @font-face {
   font-family: Poppins;
-  src: url("/Ubuntu-Medium.ttf");
+  src: url("/Ubuntu-Regular.ttf");
 }
 * {
   font-family: Poppins;
