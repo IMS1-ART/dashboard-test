@@ -22,7 +22,7 @@ const App = () => {
   const submit = (e) => {
     e.preventDefault();
     setloading(true);
-    if (name === undefined || phone === undefined || email === undefined || address === undefined) {
+    if (name === undefined && phone === && email === undefined && address === undefined) {
       toast.error("Please enter required fields");
     } 
     if (phone.length != 11) {
