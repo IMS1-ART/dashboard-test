@@ -23,8 +23,8 @@ const App = () => {
     <NextUIProvider>
       <div>
         <Header activePage={"Dashboard"} />
-        <main className={`bg-[#fff] text-[black] mb-0 m-0 md:w-[80%]  flex-1`}>
-          <h3 className="ml-3">Table View</h3>
+        <main className={`bg-[#fff] text-[black] mb-0 m-0 md:w-[80%] sm:w-[95]  flex-1`}>
+          <h5 className="ml-3">Table View</h5>
           <div className="m-2">
             <Table>
               <Table.Header>
@@ -66,8 +66,8 @@ const App = () => {
               </Table.Body>
             </Table>
           </div>
-          <h3 className="ml-3 m-2">Map View</h3>
-          <div className="w-full h-[300px]">
+          <h5 className="ml-3 m-2">Map View</h5>
+          <div className="w-full h-[300px] m-2">
             <GoogleMapReact
               bootstrapURLKeys={{ key: "" }}
               defaultCenter={defaultProps.center}
